@@ -14,6 +14,19 @@ Building fault-tolerant distributed backends, autonomous AI agent runtimes, and 
 
 ---
 
+### 🏆 Experience & Achievements
+
+#### 🏢 IT Intern — **NTPC Limited** *(June – July 2026 | Noida, India)*
+* **System Architecture:** Architected an end-to-end, per-state power demand forecasting platform for **NTPC-NVVN** across **33 Indian states/UTs** on a three-layer Django + SQLite + APScheduler stack, enabling new states to onboard via a single YAML config with zero code changes.
+* **Modeling & Feature Engineering:** Trained and tuned per-state LightGBM models (50-trial Optuna search, SHAP-validated) on a strict temporal split with a **five-tier lag-fallback chain** and autoregressive chaining to extend forecasts to 16 days, achieving **0.91% MAPE / $R^2 = 0.9960$** on held-out data.
+* **Reliability Engineering:** Root-caused a 100% live-data outage to MERIT India's geo-IP block via production logs and engineered a redundant Vercel Mumbai-region proxy layer with automated 3-minute retry sweeps, restoring live inference at zero infrastructure cost.
+* **Production Hardening:** Diagnosed and resolved Gunicorn worker-timeout crashes, model-cache invalidation bugs, and monitoring false-positives directly from production telemetry.
+
+#### 🥇 Meta PyTorch OpenEnv Hackathon — Scaler School of Technology
+* Designed & built **[emailtriage](https://github.com/tripathi-aayush/emailtriage)**, an autonomous hybrid Q-learning + LLM reinforcement learning agent achieving **99.0% accuracy (100% on test cases)** across easy, medium, and edge-case classification tiers.
+
+---
+
 ### 🛠 Tech Stack
 
 #### Languages
