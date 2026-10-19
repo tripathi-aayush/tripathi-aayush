@@ -5,6 +5,7 @@
 
 Building fault-tolerant distributed backends, autonomous AI agent runtimes, and local SLM inference pipelines. Passionate about systems that scale reliably under load, deterministic policy governance, and real-world applied ML engines.
 
+- ⚡ Building **[RouteRAG](https://github.com/tripathi-aayush/RouteRAG)** — conversational business intelligence assistant with Google Gemini (3.5 Flash Lite), pgvector semantic retrieval, LangGraph multi-step analytical routing, and DuckDB OLAP engine.
 - 🔭 Building **[Chrona](https://github.com/tripathi-aayush/Chrona)** — a distributed, fault-tolerant job scheduler in Go with leader election, atomic worker leasing, and crash recovery.
 - 🛡️ Architecting **[ambit](https://github.com/tripathi-aayush/ambit)** — a runtime and policy governance engine that safely sandboxes and evaluates AI coding agents with OPA/Rego and DinD.
 - 🧠 Fine-tuning **[Adaptive Conversational Agent](https://github.com/tripathi-aayush/adaptive_conversational_agent)** — hybrid local SLM (Phi-3 GGUF) + cloud LLM (Groq Llama 3.3) with mathematical momentum scoring.
@@ -53,6 +54,8 @@ Building fault-tolerant distributed backends, autonomous AI agent runtimes, and 
 
 #### AI, ML & Runtimes
 <p>
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
   <img src="https://img.shields.io/badge/Local_SLM_(Phi--3)-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Phi-3" />
   <img src="https://img.shields.io/badge/Groq_Cloud-F55036?style=for-the-badge&logo=groq&logoColor=white" alt="Groq" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
@@ -76,6 +79,7 @@ Building fault-tolerant distributed backends, autonomous AI agent runtimes, and 
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
+| **[RouteRAG](https://github.com/tripathi-aayush/RouteRAG)** | Conversational AI business intelligence assistant combining LangGraph multi-step analytical reasoning, pgvector RAG, DuckDB in-process OLAP queries, and automated visualization. | `FastAPI` `Next.js` `Gemini` `pgvector` `DuckDB` `LangGraph` |
 | **[Chrona](https://github.com/tripathi-aayush/Chrona)** | Fault-tolerant distributed job scheduler featuring delayed/recurring tasks, atomic worker leasing, multi-node leader election, crash recovery, and Prometheus observability. | `Go` `Redis Streams` `PostgreSQL` `Docker` `Prometheus` |
 | **[ambit](https://github.com/tripathi-aayush/ambit)** | Runtime & policy engine that governs AI coding agents. Uses deterministic risk scoring, OPA Rego policies, and isolated Docker-in-Docker command sandboxes. | `FastAPI` `Next.js 16` `OPA/Rego` `pgvector` `DinD` |
 | **[Adaptive Conversational Agent](https://github.com/tripathi-aayush/adaptive_conversational_agent)** | Hybrid performance-based interview bot combining a local fine-tuned Phi-3 SLM for fast triage with Groq Llama-3.3-70B reasoning and sliding-window momentum scoring. | `Python` `Phi-3 (GGUF)` `Groq` `Streamlit` `Plotly` |
